@@ -1,0 +1,100 @@
+/* En-tête et pie de page : formatage commun des liens avec les icones */
+body{
+	background-color: #B6D8F2;
+	border: 20px solid white;
+	font: 2em "Open Sans", sans-serif;
+}
+
+.titre{
+	width: 96%;
+	padding-left: 4%;
+	display: inline-flex;
+	text-align: left;
+}
+
+.top{
+	width: 100%;
+}
+
+.top-left{
+	width: 200px;
+	font: 2em "Open Sans", sans-serif;
+	font-size: 20px;
+}
+
+.top-center{
+	color:gray;
+	font: 2em "Open Sans", sans-serif;
+	font-size: 16px;
+}
+
+.top-right{
+	width: 220px;
+	font-size: 14px;
+}
+
+a[href^="mailto"]::before {
+  content: "📧\0000a0";
+}
+
+a[href^="tel"]::before {
+  content: "📞\0000a0";
+}
+
+a[href^="https"]::before {
+  content: "🌐\0000a0";
+}
+
+.recherche{
+	color: gray;
+}
+
+.titres{
+	color: #226D68;
+	padding-left: 10px;
+	height: 10px;
+	font-size: 24px;
+}
+
+.centre{
+	color:gray;
+}
+.gras-formation{
+	color: black;
+	font: 2em "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.lieux{
+	color: black;
+	font: italic 1.2em "Open Sans", sans-serif;
+	font-size: 14px;
+}
+
+.content{
+	font-size: 14px;
+}
+
+.content-space{
+	font-size: 14px;
+}
+
+.space{
+	padding-left: 10px;
+}
+.centrer{
+	text-align: center;
+	font-size: 14px;
+}
+.affichage{
+	column-count: 2;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-gap: 15px;
+	-webkit-column-gap: 15px;
+	-moz-column-gap: 15px;
+	column-rule: 2px solid #000000;
+	-webkit-column-rule: 2px solid #000000;
+	-moz-column-rule: 2px solid #000000;
+}
